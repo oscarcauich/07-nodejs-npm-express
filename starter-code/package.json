@@ -1,0 +1,16 @@
+{
+  "name": "lab-07",
+  "version": "1.0.0",
+  "description": "lab 7",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "lab",
+    "7"
+  ],
+  "author": "Oscar Joshua",
+  "license": "MIT"
+}
