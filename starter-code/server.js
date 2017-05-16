@@ -9,7 +9,9 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static('./public'));
 
 // TODO: Write a new route that will handle a request and send the new.html file back to the user
-
+app.get('/new.html', function(req, res) {
+  res.sendFile('public/new.html', {root: '.'});
+});
 
 app.post('/articles', bodyParser, function(request, response) {
   // REVIEW: This route will receive a new article from the form page, new.html,
