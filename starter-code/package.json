@@ -12,5 +12,8 @@
     "7"
   ],
   "author": "Oscar Joshua",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
