@@ -1,4 +1,5 @@
 'use strict';
+const express = require('express');
 
 const app = express();
 
@@ -23,4 +24,5 @@ app.post('/articles', bodyParser, function(request, response) {
 
 app.listen(PORT, function() {
   // TODO: Log to the console a message that lets you know which port your server has started on
+  console.log('We are serving this app on localhost:' + PORT);
 });
